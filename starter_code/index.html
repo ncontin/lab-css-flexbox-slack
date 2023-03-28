@@ -16,9 +16,10 @@
   </head>
 
   <body>
+    <div class="top-section">
     <nav>
       <div>
-        <img class="slack-logo" src="./images/slack-logo.png" alt="Slack logo" />
+        <img class="slack-logo-top" src="./images/slack-logo.png" alt="Slack logo" />
 
         <ul class="hidden-li">
           <li>
@@ -36,12 +37,12 @@
         </ul>
       </div>
 
-      <div>
-        <button>
+      <div >
+        <button class="header-buttons">
           <img src="./images/icon-search.png" alt="Search icon" />
         </button>
 
-        <button>
+        <button class="header-buttons">
           <img src="./images/icon-menu.png" alt="Menu icon" />
         </button>
 
@@ -67,13 +68,13 @@
 
           <button class="signup-google">
             <img class="logo-google" src="./images/logo-google.png" alt="Google logo" />
-            <span signup-span>Sign up with Google</span>
+            <span class="signup-span">Sign up with Google</span>
           </button>
         </div>
       </div>
 
-      <div>
-        <img class="slack-app-screenshot" src="./images/hero-product-ui.png" alt="Slack app screenshot" />
+      <div class="slack-app-screenshot">
+        <!-- <img src="./images/hero-product-ui.png" alt="Slack app screenshot" /> -->
       </div>
     </header>
 
@@ -193,7 +194,7 @@
 
     <footer>
       <img class="slack-logo" src="./images/iso-slack.png" alt="Slack logo" />
-      <div>
+      <div class="bottom-links">
         <ul>
           <li>WHY SLACK?</li>
           <li>Slack vs. Email</li>
@@ -228,20 +229,18 @@
           <li>Careers</li>
         </ul>
       </div>
-
-      <ul>
+      <hr />
+      <ul class="bottom-bold-links">
         <li>Status</li>
         <li>Privacy</li>
         <li>Terms</li>
         <li>Cookie Preferences</li>
         <li>Contact Us</li>
         <li>Change Region</li>
-        <li>Download Slack</li>
+        <li id="download">Download Slack</li>
       </ul>
 
-      <hr />
-
-      <ul>
+      <ul class="social">
         <li>
           <i class="fab fa-twitter"></i>
         </li>
@@ -256,7 +255,7 @@
         </li>
       </ul>
 
-      <div>
+      <div class="footer-text">
         <small>
           &copy; 2022 Slack Technologies, LLC, a Salesforce company. All rights reserved. Various trademarks held by
           their respective owners.
